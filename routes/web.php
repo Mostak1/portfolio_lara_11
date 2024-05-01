@@ -1,8 +1,10 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\UserDetailController;
 use Illuminate\Support\Facades\Route;
 
+Route::resource('user-detail',UserDetailController::class);
 Route::get('/', function () {
     return view('users.home');
 });
