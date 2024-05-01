@@ -84,7 +84,7 @@
 							
 							<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
 								<ul class="navigation clearfix">
-									<li class="dropdown"><a href="{{url('/')}}">Home</a>
+									<li class=""><a href="{{url('/')}}">Home</a>
 										{{-- <ul>
 											<li><a href="index.html">Homepage One</a></li>
 											<li><a href="index-2.html">Homepage Two</a></li>
@@ -98,7 +98,7 @@
 											</li>
 										</ul> --}}
 									</li>
-									<li class="dropdown"><a href="{{url('about')}}">About</a>
+									<li class=""><a href="{{url('about')}}">About</a>
 										{{-- <ul>
 											<li><a href="about.html">About Us</a></li>
 											<li><a href="faq.html">Faq's</a></li>
